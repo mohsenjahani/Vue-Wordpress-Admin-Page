@@ -1,0 +1,45 @@
+{
+  "name": "wordpress_vue_admin_panel",
+  "version": "1.0.0",
+  "description": "Setting Panel for Wordpress with using vue.js",
+  "scripts": {
+    "build-and-watch": "cross-env NODE_ENV=production webpack --progress --hide-modules --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue.js", "Wordpress", "Panel", "Scriptestan", "TypeScript"
+  ],
+  "author": "Mohsen Jahani",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.2",
+    "@babel/preset-env": "~7.3",
+    "@babel/plugin-syntax-dynamic-import": "~7.2",
+    "@babel/polyfill": "~7.2",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "~10.0",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "terser-webpack-plugin": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
